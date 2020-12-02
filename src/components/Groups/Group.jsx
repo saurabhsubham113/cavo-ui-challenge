@@ -34,6 +34,7 @@ class Group extends Component {
                 <div className="group-data">
                     {this.state.data.map(res => (
                         <Cards key={res.id} name={res.name} srcUrl={res.Image} />
+                        
                     ))} 
                 </div>
                 <div className="group-buttons">
