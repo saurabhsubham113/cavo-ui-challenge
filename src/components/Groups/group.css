@@ -1,0 +1,44 @@
+.group {
+  margin-top: 40px;
+}
+.group-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+}
+
+.group button {
+  width: 6rem;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  border: none;
+}
+.group-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+.group-header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.group-upload {
+  background-color: rgb(49, 111, 190);
+}
+
+.group-remove {
+  background-color: rgb(238, 74, 52);
+}
+
+.group-upload:hover {
+  background-color: rgb(12, 91, 196);
+}
+
+.group-remove:hover {
+  background-color: rgb(224, 40, 15);
+}
